@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+/target/
+*.class
+*.log
+*.jar
+*.war
+/.idea/
+/.vscode/
+/.mvn/
