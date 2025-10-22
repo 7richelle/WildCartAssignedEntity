@@ -1,9 +1,11 @@
-package com.appdev.wildcart_assigned.service;
+package com.appdev.jaducanag3.service;
 
 import org.springframework.stereotype.Service;
+
+import com.appdev.jaducanag3.model.OrderItem;
+import com.appdev.jaducanag3.repository.OrderItemRepository;
+
 import java.util.List;
-import com.appdev.wildcart_assigned.model.OrderItem;
-import com.appdev.wildcart_assigned.repository.OrderItemRepository;
 
 @Service
 public class OrderItemService {
