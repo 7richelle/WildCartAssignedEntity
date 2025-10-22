@@ -1,9 +1,11 @@
-package com.appdev.wildcart_assigned.service;
+package com.appdev.jaducanag3.service;
 
 import org.springframework.stereotype.Service;
+
+import com.appdev.jaducanag3.model.Student;
+import com.appdev.jaducanag3.repository.StudentRepository;
+
 import java.util.List;
-import com.appdev.wildcart_assigned.model.Student;
-import com.appdev.wildcart_assigned.repository.StudentRepository;
 
 @Service
 public class StudentService {
