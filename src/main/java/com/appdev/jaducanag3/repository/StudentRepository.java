@@ -1,8 +1,9 @@
-package com.appdev.wildcart_assigned.repository;
+package com.appdev.jaducanag3.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.appdev.wildcart_assigned.model.Student;
+
+import com.appdev.jaducanag3.model.Student;
 
 public interface StudentRepository extends JpaRepository<Student, Integer> {
 }

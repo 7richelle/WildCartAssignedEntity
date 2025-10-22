@@ -1,9 +1,11 @@
-package com.appdev.wildcart_assigned.controller;
+package com.appdev.jaducanag3.controller;
 
 import org.springframework.web.bind.annotation.*;
+
+import com.appdev.jaducanag3.model.OrderItem;
+import com.appdev.jaducanag3.service.OrderItemService;
+
 import java.util.*;
-import com.appdev.wildcart_assigned.model.OrderItem;
-import com.appdev.wildcart_assigned.service.OrderItemService;
 
 @RestController
 @RequestMapping("/api/order-items")

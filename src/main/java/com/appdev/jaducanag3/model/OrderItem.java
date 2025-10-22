@@ -1,4 +1,4 @@
-package com.appdev.wildcart_assigned.model;
+package com.appdev.jaducanag3.model;
 
 import jakarta.persistence.*;
 

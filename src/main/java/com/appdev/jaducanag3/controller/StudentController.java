@@ -1,9 +1,11 @@
-package com.appdev.wildcart_assigned.controller;
+package com.appdev.jaducanag3.controller;
 
 import org.springframework.web.bind.annotation.*;
+
+import com.appdev.jaducanag3.model.Student;
+import com.appdev.jaducanag3.service.StudentService;
+
 import java.util.*;
-import com.appdev.wildcart_assigned.model.Student;
-import com.appdev.wildcart_assigned.service.StudentService;
 
 @RestController
 @RequestMapping("/api/students")
