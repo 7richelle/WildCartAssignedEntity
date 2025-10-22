@@ -1,9 +1,11 @@
-package com.appdev.wildcart_assigned.service;
+package com.appdev.jaducanag3.service;
 
 import org.springframework.stereotype.Service;
+
+import com.appdev.jaducanag3.model.Cart;
+import com.appdev.jaducanag3.repository.CartRepository;
+
 import java.util.List;
-import com.appdev.wildcart_assigned.model.Cart;
-import com.appdev.wildcart_assigned.repository.CartRepository;
 
 @Service
 public class CartService {
